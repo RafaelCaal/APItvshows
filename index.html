@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>API actividad 4</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <table class="table">
+            <br>
+            <tbody>
+                <th id="titulo">Informacion de Series de Television</th>
+                <tr>
+                    <td><label for="show">Programa/Show: </label></td>
+                    <td><input type="text" id="nombreShow"><br><br></td>
+                </tr>
+                <tr>
+                    <td><label for="casillaGenero">Genero: </label></td>
+                    <td><input type="checkbox" id="casillaGenero"></td>
+                </tr>
+                <tr>
+                    <td><label for="casillaDuracion">Duracion: </label></td>
+                    <td><input type="checkbox" id="casillaDuracion"></td>
+                </tr>
+                <tr>
+                    <td><label for="casillaEstreno">Estreno: </label></td>
+                    <td><input type="checkbox" id="casillaEstreno"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><button type="submit" id="botonSubmit">Buscar</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <div id="coincidenciaShow" class="etiquetas"></div>
+        <div id="coincidenciaGenero" class="etiquetas"></div>
+        <div id="coincidenciaDuracion" class="etiquetas"></div>
+        <div id="coincidenciaEstreno" class="etiquetas"></div>
+        
+
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

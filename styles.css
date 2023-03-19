@@ -1,0 +1,15 @@
+#botonSubmit{
+    position: fixed;
+    left: 50%;
+    bottom: 240px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+#titulo{
+    text-align: center;
+}
+
+.etiquetas{
+    text-align: center;
+}
